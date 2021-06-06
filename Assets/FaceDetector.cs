@@ -12,7 +12,7 @@ public class FaceDetector : MonoBehaviour
     WebCamTexture _webCamTexture; 
     CascadeClassifier cascade; //classificador do OpenCV para reconhecer face
     OpenCvSharp.Rect MyFace;
-    public float faceY; //variavel que conecta ao passaro. Ao movimentar face na posição Y irá mover o passaro
+    public float faceY; //variavel que conecta ao passaro. Ao movimentar face na posiï¿½ï¿½o Y irï¿½ mover o passaro
 
     void Start()
     {
@@ -36,19 +36,17 @@ public class FaceDetector : MonoBehaviour
         display(frame);
     }
 
-    void findNewFace(Mat frame) //Função para identificar posição do rosto a cada frame
+    void findNewFace(Mat frame) //Funï¿½ï¿½o para identificar posiï¿½ï¿½o do rosto a cada frame
     {
         var faces = cascade.DetectMultiScale(frame, 1.1, 2, HaarDetectionType.ScaleImage);
         if (faces.Length >= 1)
         {
-            Debug.Log(faces[0].Location);
             MyFace = faces[0];
             faceY = faces[0].Y;
-            Debug.Log(faceY);
         }
     }
 
-    void display(Mat frame) //função para mostrar o retangulo que rastreia o rosto
+    void display(Mat frame) //funï¿½ï¿½o para mostrar o retangulo que rastreia o rosto
     {
         if (MyFace != null) //Se Myface contem dados do rosto entao adiciona um retangulo a imagem
         {

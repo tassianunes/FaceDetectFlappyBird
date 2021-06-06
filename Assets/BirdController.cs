@@ -38,6 +38,13 @@ public class BirdController : MonoBehaviour
 
     }
 
+    private void OnCollisionEnter2D(Collision2D other) {
+        if(other.collider.tag == "Pipe")
+        {
+            //Evento de colisão
+        }
+    }
+
 
 }
 

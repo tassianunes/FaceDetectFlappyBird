@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9099747458146176245}
   m_Layer: 0
   m_Name: Mobile - Flappy Bird - Version 12 Sprites_2
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 1545207884806881401}
   m_Layer: 0
   m_Name: Mobile - Flappy Bird - Version 12 Sprites_3
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 8635531278563381558}
   m_Layer: 0
   m_Name: PIPE
-  m_TagString: Untagged
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
