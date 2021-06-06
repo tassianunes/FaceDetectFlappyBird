@@ -21,7 +21,7 @@ public class FaceDetector : MonoBehaviour
         _webCamTexture = new WebCamTexture(devices[0].name); //variavel _webcamtecture recebe a primeira webcam que encontrar
         _webCamTexture.Play();
 
-        cascade = new CascadeClassifier(Application.dataPath + @"\OpenCV+Unity\Demo\Face_Detector\haarcascade_frontalface_default.xml");//localiza o classificador cascade para reconhecimento facial
+        cascade = new CascadeClassifier(Application.dataPath + @"\haarcascade_frontalface_default.xml");//localiza o classificador cascade para reconhecimento facial
 
     }
 
