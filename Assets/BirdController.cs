@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BirdController : MonoBehaviour
 {
-   
+    public gameManager gameManager;
     FaceDetector faceDetector;
     [SerializeField] float speed;
     float lastY = 0;
@@ -41,7 +41,9 @@ public class BirdController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other) {
         if(other.collider.tag == "Pipe")
         {
-            //Evento de colisão
+            Debug.Log("Collision");
+            Destroy(gameObject);
+            gameManager.GameOver();
         }
     }
 

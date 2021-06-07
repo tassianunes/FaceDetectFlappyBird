@@ -1,0 +1,16 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": 1, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 1, "tid": 1, "ts": 712.5999927520752, "dur": 363285.400390625, "ph": "X", "name": "il2cpp.exe", "args": { "durationMS": 363.285400390625, "detail": "" } },
+{ "pid": 1, "tid": 1, "ts": 10650.60043334961, "dur": 206272.2930908203, "ph": "X", "name": "ConvertAssemblies", "args": { "durationMS": 206.2722930908203, "detail": "" } },
+{ "pid": 1, "tid": 1, "ts": 51302.59704589844, "dur": 162295.6085205078, "ph": "X", "name": "InitializePhase", "args": { "durationMS": 162.2956085205078, "detail": "" } },
+{ "pid": 1, "tid": 1, "ts": 51303.1005859375, "dur": 162179.19921875, "ph": "X", "name": "Collect assemblies to convert", "args": { "durationMS": 162.17919921875, "detail": "" } }
+],
+"meta_datetime": "06/07/2021 10:47:24",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.2.1f1\\Editor\\Data\\il2cpp\\build\\deploy\\netcoreapp3.1\\il2cpp.dll\" @artifacts\\rsp\\6898379369415387710.rsp",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2020.2.1f1\\Editor\\Data\\il2cpp\\build\\deploy\\netcoreapp3.1\\il2cpp.dll @artifacts\\rsp\\6898379369415387710.rsp",
+"meta_user_name": "Pichau",
+"meta_os_version": "Microsoft Windows NT 6.2.9200.0",
+"meta_cpu_count": "6"}

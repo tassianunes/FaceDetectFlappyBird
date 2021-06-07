@@ -1,0 +1,241 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 8125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity_Projects/FaceDetectFlipBird/FaceDetectFlipBird
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59268
+Successfully changed project path to: D:/Unity_Projects/FaceDetectFlipBird/FaceDetectFlipBird
+D:/Unity_Projects/FaceDetectFlipBird/FaceDetectFlipBird
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.54 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 6.04 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Projects/FaceDetectFlipBird/FaceDetectFlipBird/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002035 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 24.67 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.791 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 1523 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 1.586000 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.348000 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Mobile - Flappy Bird - Version 12 Sprites.png
+  artifactKey: Guid(34aa2002c8652cc47b836370508bdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile - Flappy Bird - Version 12 Sprites.png using Guid(34aa2002c8652cc47b836370508bdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605b8cd2a1211b926652c138a5090fc') in 0.140561 seconds
+  Import took 0.145816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.460833 seconds.
+  path: Assets/OpenCV+Unity/Demo/OCR.Alphabet/Alphabet.png
+  artifactKey: Guid(1811781062814824fb8688c434b4e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/OCR.Alphabet/Alphabet.png using Guid(1811781062814824fb8688c434b4e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea0325ea1ebdddfb7722239f1ec680') in 0.018941 seconds
+  Import took 0.021941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/OpenCV+Unity/Demo/Marker_Detector/Resources/printme_23.png
+  artifactKey: Guid(621959b37d1e62b40aa552ca76d41236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Marker_Detector/Resources/printme_23.png using Guid(621959b37d1e62b40aa552ca76d41236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e00f0f51bfdd68e882a2cad75466b8') in 0.018472 seconds
+  Import took 0.021561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Postcard.jpg
+  artifactKey: Guid(1f5ee3e7a02336e40821ee6d87362e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Postcard.jpg using Guid(1f5ee3e7a02336e40821ee6d87362e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5168ee8f6ced6d6e71de42cb20f0b224') in 0.028957 seconds
+  Import took 0.031524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Receipt.jpg
+  artifactKey: Guid(c63707c52fdd69548bb81949d5950f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Receipt.jpg using Guid(c63707c52fdd69548bb81949d5950f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f73791a5f744914fc0cfd5c8c57ff60') in 0.015008 seconds
+  Import took 0.017457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/OpenCV+Unity/Demo/Grayscale/Lenna.png
+  artifactKey: Guid(cfb2bd2755a5f2c4782e6da785578244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Grayscale/Lenna.png using Guid(cfb2bd2755a5f2c4782e6da785578244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59b690cafc3b41bb98f428cf943d550') in 0.013219 seconds
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Letter.jpg
+  artifactKey: Guid(7ca86d8032a167e4fb6f5145999e45b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Letter.jpg using Guid(7ca86d8032a167e4fb6f5145999e45b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432f944bd321ce55ab81b6c73873f36') in 0.012137 seconds
+  Import took 0.014738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/PostageStamps.jpg
+  artifactKey: Guid(4488cb38cd75ce0429dc291a45eb8de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/PostageStamps.jpg using Guid(4488cb38cd75ce0429dc291a45eb8de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755764156db99480bce2e88a123dc5f8') in 0.012919 seconds
+  Import took 0.015159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/OpenCV+Unity/Demo/Marker_Detector/Resources/printme_5.png
+  artifactKey: Guid(8e3ec5e94d087ad4f825ab897e835711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Marker_Detector/Resources/printme_5.png using Guid(8e3ec5e94d087ad4f825ab897e835711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd845fabbe8be1a7557d7909bd8598860') in 0.009845 seconds
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/OpenCV+Unity/Demo/Identifiy_Contours_by_Shape/someshapes.jpg
+  artifactKey: Guid(dedfcd8650316ce499bce48798315ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Identifiy_Contours_by_Shape/someshapes.jpg using Guid(dedfcd8650316ce499bce48798315ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befe353801244a65be4bdbeaa188a91b') in 0.008944 seconds
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/OpenCV+Unity/Demo/Marker_Detector/Resources/marker_scene_demo.jpg
+  artifactKey: Guid(fddc5ae669377fc43bbee4a110da2a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Marker_Detector/Resources/marker_scene_demo.jpg using Guid(fddc5ae669377fc43bbee4a110da2a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3844f9f2b0f2f2444c9d188c54aacdfb') in 0.009118 seconds
+  Import took 0.011293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/OpenCV+Unity/Demo/Face_Recognizer/oscar-selfie-original.jpg
+  artifactKey: Guid(0472dd3b4e82abd4c80eaf29a1b1c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Face_Recognizer/oscar-selfie-original.jpg using Guid(0472dd3b4e82abd4c80eaf29a1b1c1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd0458101dbcb3f4c37a9b53b7d7d84') in 0.010924 seconds
+  Import took 0.013082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Form.jpg
+  artifactKey: Guid(b1b64ff49a62b2c46a0efdb4a3506573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Form.jpg using Guid(b1b64ff49a62b2c46a0efdb4a3506573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd48fea83561e5dd37a245beb27900f') in 0.017198 seconds
+  Import took 0.019488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Brochure.jpg
+  artifactKey: Guid(f7a196db60947d940aa9c67f16bb1123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/Brochure.jpg using Guid(f7a196db60947d940aa9c67f16bb1123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e820f9f4c2e18b824a0eb080e9131159') in 0.019534 seconds
+  Import took 0.022326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/VisionSamples.jpg
+  artifactKey: Guid(c365df716419b1042a52bd7905018991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/Document_Scanner/Resources/DocumentScanner/VisionSamples.jpg using Guid(c365df716419b1042a52bd7905018991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf106f8b25b602b03d4fe80d998d26c') in 0.014675 seconds
+  Import took 0.018414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/OpenCV+Unity/Demo/OCR.Alphabet/Alphabet.png
+  artifactKey: Guid(1811781062814824fb8688c434b4e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCV+Unity/Demo/OCR.Alphabet/Alphabet.png using Guid(1811781062814824fb8688c434b4e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea0325ea1ebdddfb7722239f1ec680') in 0.018576 seconds
+  Import took 0.021967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.231236 seconds.
+  path: Assets/PIPE.prefab
+  artifactKey: Guid(b5b99f887b64dce448606f6f5306e9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PIPE.prefab using Guid(b5b99f887b64dce448606f6f5306e9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663dd3aebe4593fc0d96aa9f77b3125b') in 0.038372 seconds
+  Import took 0.040798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.904092 seconds.
+  path: Assets/Kb-Creating your own Flappy Bird Exergame 2D - integrando face tracking com o Game-17.png
+  artifactKey: Guid(98c367143ee4d624ca4da091f57a7aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kb-Creating your own Flappy Bird Exergame 2D - integrando face tracking com o Game-17.png using Guid(98c367143ee4d624ca4da091f57a7aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88fd50d2b7184b65f836b5c7da2e821') in 0.013584 seconds
+  Import took 0.016131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.745085 seconds.
+  path: Assets/Kb-Creating your own Flappy Bird Exergame 2D - integrando face tracking com o Game-17.png
+  artifactKey: Guid(98c367143ee4d624ca4da091f57a7aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kb-Creating your own Flappy Bird Exergame 2D - integrando face tracking com o Game-17.png using Guid(98c367143ee4d624ca4da091f57a7aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe5d43453de5c1b4f66961be6a04a3') in 0.027852 seconds
+  Import took 0.030574 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.4 MB.
+System memory in use after: 43.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.133000 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.924400 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
